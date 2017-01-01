@@ -1,9 +1,9 @@
-# demigod
+# Primordial
 
-[![Build Status](https://travis-ci.org/PixelPlayoffs/demigod.svg?branch=master)](https://travis-ci.org/PixelPlayoffs/demigod)
-[![Build status](https://ci.appveyor.com/api/projects/status/ex8u8fus50v02rpc?svg=true)](https://ci.appveyor.com/project/tripdubroot/demigod)
+[![Build Status](https://travis-ci.org/tripdubroot/primordial.svg?branch=master)](https://travis-ci.org/tripdubroot/primordial)
+[![Build status](https://ci.appveyor.com/api/projects/status/n4eeqi4m3bl8rpxy?svg=true)](https://ci.appveyor.com/project/tripdubroot/primordial)
 
-Starter Project for Pixel Playoffs Microservices. Includes:
+Starter Project for Nodejs/Docker Microservices. Includes:
 
  - editorconfig
  - npm init
