@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const port = 6996;
 
 var healthConfig = {
-  svcName: 'Demigod',
+  svcName: 'Primordial',
   host: os.hostname(),
   status: 'green'
 };
