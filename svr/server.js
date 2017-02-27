@@ -28,7 +28,7 @@ app.listen(port, (err)=>{
   if (err) {
     console.log(err);
   } else {
-    console.log('Demigod running at http://localhost:' + port);
+    console.log('Primordial running at http://localhost:' + port);
     open('http://localhost:' + port + '/health');
   }
 });

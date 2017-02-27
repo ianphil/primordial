@@ -1,8 +1,8 @@
 {
-  "name": "demigod",
+  "name": "primordial",
   "version": "0.0.1",
-  "description": "Demigod is an automated provisioner for Azure and Docker",
-  "main": "server.js",
+  "description": "Primordial is an automated provisioner for Azure and Docker",
+  "main": "srv/server.js",
   "scripts": {
     "prestart": "babel-node scripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:web lint test",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PixelPlayoffs/demigod.git"
+    "url": "git+https://github.com/tripdubroot/primoridal.git"
   },
   "author": "Tripdubroot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PixelPlayoffs/demigod/issues"
+    "url": "https://github.com/tripdubroot/primoridal/issues"
   },
-  "homepage": "https://github.com/PixelPlayoffs/demigod#readme",
+  "homepage": "https://github.com/tripdubroot/primoridal#readme",
   "dependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.21.0",
@@ -46,7 +46,8 @@
     "mocha": "^3.2.0",
     "npm-run-all": "^3.1.2",
     "nsp": "^2.6.2",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "redis": "^2.6.5"
   },
   "devDependencies": {
     "babel-preset-es2015-node": "^6.1.1"
